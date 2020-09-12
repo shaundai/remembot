@@ -9,8 +9,12 @@ Sends subscribers text reminders for things to do.  Twilio Autopilot will allow 
 
 #### Live project
 
-Project is still in very early stages of production.  Requirements:
--
+Project is still in very early stages of production.  Requirements (v1):
+-Bot will connect with Twilio API
+-Bot will send a good morning reminder every morning at the same time
+-Bot will determine a list of to-dos based on the day of the week
+-Bot will text reminders at a pre-designated time
+-Bot will follow up 10 minutes after initial reminders to ensure task was completed
 
 
 ## Installation
